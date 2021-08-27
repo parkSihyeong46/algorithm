@@ -1,0 +1,2 @@
+C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\Debug\BAEKJOON.exe
+C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\Debug\BAEKJOON.pdb
