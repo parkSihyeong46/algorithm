@@ -21,6 +21,7 @@ using namespace std;
 
 // https://www.acmicpc.net/problem/1712
 
+
 int main()
 {
 	long fixedCost, variableCost, salesIncome;
