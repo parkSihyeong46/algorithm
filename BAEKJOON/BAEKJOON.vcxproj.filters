@@ -75,5 +75,8 @@
     <ClCompile Include="큰 수 A+B.cpp">
       <Filter>소스 파일\단계별로 풀어보기\기본 수학 1</Filter>
     </ClCompile>
+    <ClCompile Include="Fly me to the Alpha Centauri.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
