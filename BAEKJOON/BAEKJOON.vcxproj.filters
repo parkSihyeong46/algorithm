@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\단계별로 풀어보기\문자열">
       <UniqueIdentifier>{f1d2a146-8c7e-423d-8c07-41a784d0ea2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\단계별로 풀어보기\기본 수학 2">
+      <UniqueIdentifier>{6be22f5c-5482-4032-8804-72c65a168921}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="손익분기점.cpp">
@@ -77,6 +80,21 @@
     </ClCompile>
     <ClCompile Include="Fly me to the Alpha Centauri.cpp">
       <Filter>소스 파일\단계별로 풀어보기\기본 수학 1</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
+    </ClCompile>
+    <ClCompile Include="소수.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
+    </ClCompile>
+    <ClCompile Include="소인수분해.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 구하기.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
+    </ClCompile>
+    <ClCompile Include="베르트랑 공준.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
