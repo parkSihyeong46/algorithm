@@ -96,5 +96,8 @@
     <ClCompile Include="베르트랑 공준.cpp">
       <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
     </ClCompile>
+    <ClCompile Include="골드바흐의 추측.cpp">
+      <Filter>소스 파일\단계별로 풀어보기\기본 수학 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

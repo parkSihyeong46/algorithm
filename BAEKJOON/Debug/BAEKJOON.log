@@ -1,2 +1,5 @@
-﻿  베르트랑 공준.cpp
+﻿  소스.cpp
+C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\소스.cpp(11,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\소스.cpp(20,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\소스.cpp(30,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   BAEKJOON.vcxproj -> C:\Users\parks\Desktop\GitHub\algorithm\BAEKJOON\Debug\BAEKJOON.exe
