@@ -1,19 +1,19 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <sstream>
 
 using namespace std;
 
-//¹®Á¦
-//¿µ¾î ´ë¼Ò¹®ÀÚ¿Í ¶ç¾î¾²±â¸¸À¸·Î ÀÌ·ç¾îÁø ¹®ÀÚ¿­ÀÌ ÁÖ¾îÁø´Ù.ÀÌ ¹®ÀÚ¿­¿¡´Â ¸î °³ÀÇ ´Ü¾î°¡ ÀÖÀ»±î ? ÀÌ¸¦ ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.´Ü, ÇÑ ´Ü¾î°¡ ¿©·¯ ¹ø µîÀåÇÏ¸é µîÀåÇÑ È½¼ö¸¸Å­ ¸ðµÎ ¼¼¾î¾ß ÇÑ´Ù.
+//ë¬¸ì œ
+//ì˜ì–´ ëŒ€ì†Œë¬¸ìžì™€ ë„ì–´ì“°ê¸°ë§Œìœ¼ë¡œ ì´ë£¨ì–´ì§„ ë¬¸ìžì—´ì´ ì£¼ì–´ì§„ë‹¤.ì´ ë¬¸ìžì—´ì—ëŠ” ëª‡ ê°œì˜ ë‹¨ì–´ê°€ ìžˆì„ê¹Œ ? ì´ë¥¼ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.ë‹¨, í•œ ë‹¨ì–´ê°€ ì—¬ëŸ¬ ë²ˆ ë“±ìž¥í•˜ë©´ ë“±ìž¥í•œ íšŸìˆ˜ë§Œí¼ ëª¨ë‘ ì„¸ì–´ì•¼ í•œë‹¤.
 //
-//ÀÔ·Â
-//Ã¹ ÁÙ¿¡ ¿µ¾î ´ë¼Ò¹®ÀÚ¿Í ¶ç¾î¾²±â·Î ÀÌ·ç¾îÁø ¹®ÀÚ¿­ÀÌ ÁÖ¾îÁø´Ù.ÀÌ ¹®ÀÚ¿­ÀÇ ±æÀÌ´Â 1, 000, 000À» ³ÑÁö ¾Ê´Â´Ù.´Ü¾î´Â ¶ç¾î¾²±â ÇÑ °³·Î ±¸ºÐµÇ¸ç, °ø¹éÀÌ ¿¬¼ÓÇØ¼­ ³ª¿À´Â °æ¿ì´Â ¾ø´Ù.¶ÇÇÑ ¹®ÀÚ¿­ÀÇ ¾Õ°ú µÚ¿¡´Â °ø¹éÀÌ ÀÖÀ» ¼öµµ ÀÖ´Ù.
+//ìž…ë ¥
+//ì²« ì¤„ì— ì˜ì–´ ëŒ€ì†Œë¬¸ìžì™€ ë„ì–´ì“°ê¸°ë¡œ ì´ë£¨ì–´ì§„ ë¬¸ìžì—´ì´ ì£¼ì–´ì§„ë‹¤.ì´ ë¬¸ìžì—´ì˜ ê¸¸ì´ëŠ” 1, 000, 000ì„ ë„˜ì§€ ì•ŠëŠ”ë‹¤.ë‹¨ì–´ëŠ” ë„ì–´ì“°ê¸° í•œ ê°œë¡œ êµ¬ë¶„ë˜ë©°, ê³µë°±ì´ ì—°ì†í•´ì„œ ë‚˜ì˜¤ëŠ” ê²½ìš°ëŠ” ì—†ë‹¤.ë˜í•œ ë¬¸ìžì—´ì˜ ì•žê³¼ ë’¤ì—ëŠ” ê³µë°±ì´ ìžˆì„ ìˆ˜ë„ ìžˆë‹¤.
 //
-//Ãâ·Â
-//Ã¹Â° ÁÙ¿¡ ´Ü¾îÀÇ °³¼ö¸¦ Ãâ·ÂÇÑ´Ù.
+//ì¶œë ¥
+//ì²«ì§¸ ì¤„ì— ë‹¨ì–´ì˜ ê°œìˆ˜ë¥¼ ì¶œë ¥í•œë‹¤.
 //
-//¿¹Á¦ ÀÔ·Â										¿¹Á¦ Ãâ·Â
+//ì˜ˆì œ ìž…ë ¥										ì˜ˆì œ ì¶œë ¥
 //The Curious Case of Benjamin Button				6
 //Mazatneunde Wae Teullyeoyo						3
 //Teullinika Teullyeotzi							2
@@ -35,7 +35,7 @@ int main()
 	inputString.erase(0, inputString.find_first_not_of(' '));
 	inputString.erase(inputString.find_last_not_of(' ') + 1);
 
-	iss.str(inputString); // istringstream iss(inputString) À¸·Î ¹Ù·Î °ª ÃÊ±âÈ­ °¡´É
+	iss.str(inputString); // istringstream iss(inputString) ìœ¼ë¡œ ë°”ë¡œ ê°’ ì´ˆê¸°í™” ê°€ëŠ¥
 
 	while(getline(iss, token, ' '))
 	{

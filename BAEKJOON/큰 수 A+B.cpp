@@ -1,22 +1,22 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <algorithm>
 
 using namespace std;
 
-//¹®Á¦
-//µÎ Á¤¼ö A¿Í B¸¦ ÀÔ·Â¹ÞÀº ´ÙÀ½, A + B¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+//ë¬¸ì œ
+//ë‘ ì •ìˆ˜ Aì™€ Bë¥¼ ìž…ë ¥ë°›ì€ ë‹¤ìŒ, A + Bë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
 //
-//ÀÔ·Â
-//Ã¹Â° ÁÙ¿¡ A¿Í B°¡ ÁÖ¾îÁø´Ù. (0 < A, B < 1010000)
+//ìž…ë ¥
+//ì²«ì§¸ ì¤„ì— Aì™€ Bê°€ ì£¼ì–´ì§„ë‹¤. (0 < A, B < 1010000)
 //
-//Ãâ·Â
-//Ã¹Â° ÁÙ¿¡ A + B¸¦ Ãâ·ÂÇÑ´Ù.
+//ì¶œë ¥
+//ì²«ì§¸ ì¤„ì— A + Bë¥¼ ì¶œë ¥í•œë‹¤.
 //
-//¿¹Á¦ ÀÔ·Â										
+//ì˜ˆì œ ìž…ë ¥										
 //9223372036854775807 9223372036854775808
 //
-//¿¹Á¦ Ãâ·Â
+//ì˜ˆì œ ì¶œë ¥
 //18446744073709551615
 
 // https://www.acmicpc.net/problem/10757
